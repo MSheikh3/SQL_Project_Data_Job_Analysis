@@ -1,9 +1,24 @@
 /*
 
 Question: What are the most optimal skills?
-e.g Highest demand (querie 3) and highest paying (querie 4) skills
 
-Since we need both query 3 and 4, it is the perfect scenario to use a CTE
+This query identifies the most optimal skills for Data Analysts by combining
+two key measures: demand and salary.
+
+Query 3 showed which skills appear most often in job postings, while Query 4
+showed which skills are associated with the highest average salaries. However,
+looking at either measure in isolation can be misleading. A highly demanded
+skill may not offer the highest salary, while a high-paying skill may only
+appear in a small number of postings.
+
+To create a more realistic view, this query uses CTEs to calculate both demand
+count and average salary for each skill, then joins the results together using
+skill_id. A minimum demand threshold is applied to reduce the impact of rare
+skills and outliers.
+
+The final output highlights skills that offer a stronger balance between job
+market demand and earning potential.
+
 */
 
 --We start with defining the cte for q3 and 4
