@@ -165,9 +165,6 @@ LIMIT 25
 ```
 
 
-
-### 5. What are the most optimal skills?
-
 ### 5. What Are the Most Optimal Skills for Data Analysts?
 
 This query combines skill demand and salary data to identify the most optimal skills for Data Analysts. Rather than analysing demand and salary separately, this approach evaluates which skills offer the best balance between market demand and earning potential.
@@ -259,7 +256,6 @@ It is important to note that this analysis ranks skills based solely on average 
 
 ***5. Most optimal skills?***:
 
-### Key Findings
 
 This analysis revealed that the most valuable skills are not necessarily the most common skills, but those that combine strong demand with above-average salaries.
 
@@ -272,8 +268,6 @@ Business intelligence and reporting tools such as Tableau and Looker also perfor
 A broader trend across the results is the growing importance of combining core analytical skills with cloud and data engineering technologies. While foundational skills such as SQL, Python, and Tableau remain highly sought after, professionals who can also work with platforms such as Snowflake, AWS, and Azure may be better positioned for higher-paying opportunities.
 
 Overall, the findings suggest that the most effective skill strategy is to build a strong foundation in analytics and visualisation while gradually developing expertise in modern cloud and data platform technologies.
-
-# Conclusions
 
 # Conclusions
 
